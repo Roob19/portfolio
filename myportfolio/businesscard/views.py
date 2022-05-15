@@ -4,7 +4,7 @@ from .models import *
 
 def home(request):
     # return HttpResponse('<h1 text-align: center>HELLO THERE</h1>')
-    return render(request, 'base.html')
+    return render(request, 'home.html')
 
 def about(request):
     return render(request, 'about.html')
