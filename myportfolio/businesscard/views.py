@@ -19,4 +19,4 @@ def resume(request):
     return render(request, 'resume.html')
 
 def projects(request):
-    return render(request, 'projects.htlm')
+    return render(request, 'projects.html')

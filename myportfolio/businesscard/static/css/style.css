@@ -12,3 +12,7 @@ footer.page-footer {
   padding-top: 0;
   text-align: right;
 }
+
+#hero .container{
+    height: 50vh;
+}
