@@ -11,8 +11,13 @@ main {
 footer.page-footer {
   padding-top: 0;
   text-align: right;
+  background-color: rgba(25, 47, 81, 1);
 }
 
-#hero .container{
-    height: 50vh;
+#hero .container {
+    height: 100vh;
+}
+
+nav {
+    background-color: rgba(25, 47, 81, 1);
 }
