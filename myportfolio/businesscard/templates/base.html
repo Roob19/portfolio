@@ -30,14 +30,14 @@
     <nav>
       <div class="nav-wrapper">
         <ul>
-          <li><a href="/" class="left brand-logo">&nbsp;&nbsp;Ruben A. da Silva</a></li>
+          <li><a href="{% url 'home' %}" class="left brand-logo">&nbsp;&nbsp;Ruben A. da Silva</a></li>
         </ul>
         <ul class="right">
-          <li><a href="/about">About</a></li>
-          <li><a href="/skills">Skills</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/resume">Résumé</a></li>
-          <li><a href="/projects">Projects</a></li>
+          <li><a href="{% url 'about' %}">About</a></li>
+          <li><a href="{% url 'skill' %}">Skills</a></li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
+          <li><a href="{% url 'resume' %}">Résumé</a></li>
+          <li><a href="{% url 'projects' %}">Projects</a></li>
         </ul>
       </div>
     </nav>
