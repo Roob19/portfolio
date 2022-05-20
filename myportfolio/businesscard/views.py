@@ -20,3 +20,6 @@ def resume(request):
 
 def projects(request):
     return render(request, 'projects.html')
+
+# def businesscard_index(request):
+#     return render(request, 'bootsrap_index', {})

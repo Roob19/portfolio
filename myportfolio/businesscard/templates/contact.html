@@ -2,10 +2,23 @@
 
 {% block content %}
 
-<h3 text-align: center>Contact</h3>
-<hr />
-    <a href="https://www.linkedin.com/in/ruben-dasilva/" target="_blank">LinkedIn</a>
+<h3>Contact</h3>
+<hr/>
+    <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/ruben-dasilva/" target="_blank" role="button">
+        <i class="fa-brands fa-linkedin-in"></i></a>
+        
+    <a class="btn btn-primary" style="background-color: #dd4b39;" href="mailto: me@rubendasilva.dev" role="button">
+        <i class="fa-brands fa-google">mail</i></a>
 </br>
-    <a href="mailto: me@rubendasilva.dev">email</a>
+{% comment %} <contactme class="card-body" style="width: 18rem;">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+</contactme> {% endcomment %}
 
 {% endblock %}
